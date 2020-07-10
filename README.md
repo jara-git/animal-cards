@@ -1,1 +1,1 @@
-Práctica de react. Fichas de amimales usando props en componente funcional.
+Práctica de react. Fichas de animales usando props en componente funcional.

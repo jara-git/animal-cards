@@ -9,8 +9,8 @@ function App() {
     {
     id: id(),
     title: "Card 1",
-    img: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Eurasian_wolf.JPG',
-    author: 'Jara',
+    img: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Eurasian_wolf.JPG",
+    author: 'jara',
     date: new Date().toLocaleDateString(),
     tags: ['animal', 'wolf', 'snow'
         ],
@@ -31,7 +31,7 @@ function App() {
     {
     id: id(),
     title: "Card 3",
-    img: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Eurasian_wolf.JPG',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Wolf_in_snow_at_Munich_zoo.JPG/1599px-Wolf_in_snow_at_Munich_zoo.JPG',
     author: 'jara',
     date: new Date().toLocaleDateString(),
     tags: ['animal', 'wolf', 'snow'
@@ -50,16 +50,14 @@ function App() {
           date = {card.date}
           tags = {card.tags}
           views = {card.views}
-          img = {card.image}
+          img = {card.img}
           key = {card.id}
           >
           {card.description}
           </Card>
         ))
-
     }
 
-      
     </div>
   );
 }
